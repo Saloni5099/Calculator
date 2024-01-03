@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family:'roboto',sans-serif ;
+   
+}
+.calculator{
+    text-align: center;
+}
+.container{
+  margin-left:230px ;
+  background-color: black;  
+  width: 320px;
+  height:573px;
+  
+}
+.zero{
+  width:135px;
+  height: 72px;
+  margin-left: 4px;
+  border-style:round;
+  cursor: pointer;
+  font-size: 22px;
+  color: antiquewhite;
+  background-color:rgb(30, 28, 28) ;
+}
+.row{
+    text-align: center;
+    margin:6px 0;
+}
+.button{
+    padding: 22px;
+    border-style:round;
+    margin:0 2px;
+    cursor:pointer;
+    width:62px;
+    background-color:rgb(30, 28, 28) ;
+    font-size: 22px;
+    color: antiquewhite;
+}
+.input{
+    margin-top: 20px;
+    background-color:whitesmoke;
+    text-align:center;
+    height: 130px;
+    width:265px;
+    border-style: round;
+    font-size: 25px;
+}
+.first{
+    text-align: center;
+    margin:6px 0;
+}
+.last{
+    text-align: center;
+    margin:6px 0;
+}
+.first button{
+    background:rgb(183, 181, 181);
+    color: black;
+}  
+
+.row button:nth-child(4) {
+    background: rgb(253, 177, 13);
+    color: antiquewhite;
+}
+
+.first button:nth-child(4){
+    background: rgb(253, 177, 13);
+    color: antiquewhite;
+}
+.last button:nth-child(3) {
+    background: rgb(253, 177, 13);
+    color: antiquewhite;
+}
+
+
+ 
