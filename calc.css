@@ -9,13 +9,13 @@ html,body{
     text-align: center;
 }
 .container{
-  margin-left:230px ;
+  margin-left:600px ;
   background-color: black;  
   width: 320px;
   height:573px;
   
 }
-.zero{
+.last button:nth-child(1){
   width:135px;
   height: 72px;
   margin-left: 4px;
@@ -41,7 +41,7 @@ html,body{
 }
 .input{
     margin-top: 20px;
-    background-color:whitesmoke;
+    background-color:rgb(216, 214, 214);
     text-align:center;
     height: 130px;
     width:265px;
