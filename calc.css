@@ -6,7 +6,7 @@ html,body{
    
 }
 .calculator{
-    text-align: center;
+    padding-left: 575px;
 }
 .container{
   margin-left:600px ;
@@ -14,6 +14,18 @@ html,body{
   width: 320px;
   height:573px;
   
+}
+@media  (max-width:600px){
+    .container{
+        margin-left:0;
+        
+    }
+    body{
+        padding:19px;
+    }
+    .calculator{
+        padding-right:3px;
+    }
 }
 .last button:nth-child(1){
   width:135px;
