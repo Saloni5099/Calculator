@@ -5,26 +5,25 @@ html,body{
     font-family:'roboto',sans-serif ;
 }
 .calculator{
-    margin-left: 305px;
+    margin-left:60px;
 }
 .container{
   margin-left:327px ;
   background-color: black;  
   width: 320px;
-  height:573px;
+  height:573px; 
+    
   
 }
-@media  (max-width:600px){
+@media  (max-width:700px){
     .container{
-        margin-left: 110px;
+        margin-left: 72px;
         
     }
     body{
         padding:19px;
     }
-    .calculator{
-        padding: 7px;
-    }
+
 }
 .last button:nth-child(1){
   width:135px;
