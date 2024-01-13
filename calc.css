@@ -5,7 +5,7 @@ html,body{
     font-family:'roboto',sans-serif ;
 }
 .calculator{
-    margin-left:-49px;
+    margin-left:-3px;
 }
 .container{
   margin-left:327px ;
@@ -19,7 +19,9 @@ html,body{
     body{
         padding:19px;
     }
-
+    .container {
+        margin-left: -29px;
+    }
 }
 .last button:nth-child(1){
   width:135px;
