@@ -3,9 +3,10 @@ html,body{
     height: 100%;
     width: 100%;
     font-family:'roboto',sans-serif ;
-   
 }
-
+.calculator{
+    margin-left: 578px;
+}
 .container{
   margin-left:600px ;
   background-color: black;  
@@ -22,8 +23,7 @@ html,body{
         padding:19px;
     }
     .calculator{
-        padding: 24px;
-        margin-left: 62px 
+        padding: 7px;
     }
 }
 .last button:nth-child(1){
