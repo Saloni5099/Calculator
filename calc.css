@@ -5,9 +5,7 @@ html,body{
     font-family:'roboto',sans-serif ;
    
 }
-.calculator{
-    padding-left: 575px;
-}
+
 .container{
   margin-left:600px ;
   background-color: black;  
@@ -17,14 +15,15 @@ html,body{
 }
 @media  (max-width:600px){
     .container{
-        margin-left:0;
+        margin-left: 110px;
         
     }
     body{
         padding:19px;
     }
     .calculator{
-        padding-right:3px;
+        padding: 24px;
+        margin-left: 62px 
     }
 }
 .last button:nth-child(1){
