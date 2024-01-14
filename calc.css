@@ -5,22 +5,22 @@ html,body{
     font-family:'roboto',sans-serif ;
 }
 .calculator{
-    margin-left:-3px;
+    text-align: center;
 }
 .container{
-  margin-left:327px ;
+  margin-left:39vw ;
   background-color: black;  
   width: 320px;
   height:573px; 
-    
+}  
   
-}
-@media  (max-width:700px){
+@media screen and
+(max-width:500px){
     body{
         padding:19px;
     }
     .container {
-        margin-left: -29px;
+        margin-left: 4vw;
     }
 }
 .last button:nth-child(1){
